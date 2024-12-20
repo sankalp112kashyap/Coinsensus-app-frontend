@@ -45,26 +45,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Project Structure
-src/
-├── components/       # Reusable UI components
-│   ├── layout/      # Layout components like Header, Sidebar
-│   ├── shared/      # Shared components
-│   ├── auth/        # Authentication related components
-│   ├── transactions/# Transaction related components
-│   └── friends/     # Friend management components
-├── pages/           # Page components
-│   ├── home/        # Home page
-│   ├── friends/     # Friends management page
-│   ├── activity/    # Activity tracking page
-│   └── account/     # Account settings page
-├── services/        # API and service integrations
-├── utils/           # Utility functions
-├── assets/          # Static assets
-├── hooks/           # Custom React hooks
-├── types/           # TypeScript type definitions
-└── context/         # React Context providers
-
 ### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
