@@ -1,12 +1,28 @@
-# Getting Started with Create React App
+# Coincensus: Split Bills and Track Balances
+
+A blockchain-based bill management platform powered by ResilientDB, designed to create a trustless and transparent system for expense tracking among friends and groups.
+
+## Features
+- Track balance calculations, money owed, and money to be received
+- Transparent, immutable ledger for all transactions
+- Secure and decentralized management using ResilientDB
+- User-friendly interface built with React and TypeScript
+
+## Tech Stack
+- Frontend: React, TypeScript, Tailwind CSS
+- Backend: FastAPI
+- Blockchain: ResilientDB
+- Database: SQLite (for caching)
+
+## Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +30,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,18 +45,35 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Project Structure
+src/
+├── components/       # Reusable UI components
+│   ├── layout/      # Layout components like Header, Sidebar
+│   ├── shared/      # Shared components
+│   ├── auth/        # Authentication related components
+│   ├── transactions/# Transaction related components
+│   └── friends/     # Friend management components
+├── pages/           # Page components
+│   ├── home/        # Home page
+│   ├── friends/     # Friends management page
+│   ├── activity/    # Activity tracking page
+│   └── account/     # Account settings page
+├── services/        # API and service integrations
+├── utils/           # Utility functions
+├── assets/          # Static assets
+├── hooks/           # Custom React hooks
+├── types/           # TypeScript type definitions
+└── context/         # React Context providers
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- ResilientDB for blockchain infrastructure
+- UC Davis ECS 265 | FALL '24
