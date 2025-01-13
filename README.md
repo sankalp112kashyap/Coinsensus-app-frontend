@@ -2,6 +2,8 @@
 
 A blockchain-based bill management platform powered by ResilientDB, designed to create a trustless and transparent system for expense tracking among friends and groups.
 
+Medium article about the project: https://medium.com/@haseebshaik00/coincensus-split-bills-and-track-balances-powered-by-resilientdb-1ec46253312a
+
 ## Features
 - Track balance calculations, money owed, and money to be received
 - Transparent, immutable ledger for all transactions
